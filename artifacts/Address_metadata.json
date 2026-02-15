@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.33+commit.64118f21"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "target",
+						"type": "address"
+					}
+				],
+				"name": "AddressEmptyCode",
+				"type": "error"
+			}
+		],
+		"devdoc": {
+			"details": "Collection of functions related to the address type",
+			"errors": {
+				"AddressEmptyCode(address)": [
+					{
+						"details": "There's no code at `target` (it is not a contract)."
+					}
+				]
+			},
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"kash_vesting_flattened.sol": "Address"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 1000
+		},
+		"remappings": []
+	},
+	"sources": {
+		"kash_vesting_flattened.sol": {
+			"keccak256": "0x103ebb70b99bfddfa70e22ecb38e4c4f5cf0944c84aea8156b824c6c296ca0df",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://f29c35665c46ec0db6aa1b5b299515e6ad4d43056fb2ba20a0ed6a4671866264",
+				"dweb:/ipfs/QmQ6iCAjdFvaSzZyQnGy7ib3o9aSQC2aR3pewn4AoThJij"
+			]
+		}
+	},
+	"version": 1
+}
