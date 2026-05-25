@@ -47,6 +47,16 @@ Allocation:
 Category:
 long-term reserve
 
+## Airdrop Wallet
+
+Address:
+0xe0fC52624047F8488Da3eE30D889b78EDc085eF1
+
+Allocation:
+5,200,000 KASH
+
+Category:
+airdrop
 ## Uniswap V2 Pool
 
 Pair:
